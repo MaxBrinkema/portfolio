@@ -13,7 +13,9 @@ Read before every task, in this order of precedence:
 
 Visual previews with real content live in the private content repository (`portfolio-content/design-previews/`). Use them for visual comparison only; never copy texts, screenshots or traces from them into this repository.
 
-**Current phase: 1 – Foundation and harness** (see the plan, section "Umsetzungsphasen").
+## Project status
+
+[`docs/status.md`](docs/status.md) is the handover between sessions: current phase, what is done, the next step, pending decisions and open items for Max. **Read it first in every session.** It describes the state of `main` once the pull request that touches it is merged, so every pull request updates it before it is opened.
 
 ## Commands
 
@@ -47,7 +49,7 @@ Visual previews with real content live in the private content repository (`portf
 
 ## Working rules
 
-1. Read the sources of truth above before every task.
+1. Read `docs/status.md` and the sources of truth above before every task.
 2. Work on one phase or one clearly scoped goal at a time. Do not anticipate later phases.
 3. Do not make open decisions yourself. Propose an ADR draft with options and trade-offs and wait for Max's decision.
 4. **English in code:** code, identifiers, comments, JSDoc, commit messages and PR descriptions are English. German only in German content and UI texts.
@@ -67,7 +69,7 @@ Visual previews with real content live in the private content repository (`portf
 10. Every new text and every new page in German and English (see architecture rules).
 11. No secrets, client names, NDA material or real content (profile, projects, CV data) in this public repository. Develop and test with example content only. Never upload artifacts, screenshots or traces with real content.
 12. Architecture changes update ADRs and arc42 in the same pull request.
-13. Follow the Git workflow below. End every session with a short summary: what is done, what is open, which decisions are pending.
+13. Follow the Git workflow below. Update `docs/status.md` in every pull request (done, next step, pending decisions, open items for Max). End every session with a short summary: what is done, what is open, which decisions are pending.
 
 ## Git workflow
 

@@ -22,6 +22,7 @@
 - [ ] Tests added or updated (security-critical code test-first)
 - [ ] DE/EN complete for every new text and page (missing translations marked as TODO)
 - [ ] Docs updated (ADRs, arc42, README) where affected
+- [ ] `docs/status.md` updated (done, next step, pending decisions, open items)
 - [ ] No secrets, client names, NDA material or real content; only `content-example/`
 - [ ] Visual changes use existing design-system tokens and components only
 
