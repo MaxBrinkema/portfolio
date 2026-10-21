@@ -1,0 +1,8 @@
+pnpm-lock.yaml
+coverage/
+dist/
+
+# Snapshot of the design system; changes only arrive via a new export, never by reformatting.
+docs/design-system/
+# Export of the planning doc; kept byte-identical to the source so later exports diff cleanly.
+docs/plan.md
