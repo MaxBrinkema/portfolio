@@ -11,7 +11,7 @@ Requires the Node version from [`.nvmrc`](.nvmrc); pnpm is pinned via the `packa
 ```sh
 nvm install && nvm use   # nvm-windows: nvm install 24.21.0 && nvm use 24.21.0
 corepack enable
-pnpm install
+pnpm install             # also installs the Git hooks (lefthook)
 pnpm verify              # format check, lint, typecheck, tests with coverage
 ```
 
